@@ -1,0 +1,219 @@
+@charset "iso-8859-1";
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+body {
+    margin: 0;
+}
+
+.app {
+    font-family: "Franklin Gothic Medium", Arial, sans-serif;
+    margin-top: 45px;
+}
+
+.header {
+    z-index: 99;
+    background: lightgrey;
+    position: fixed;
+    padding: 10px 0;
+    top: 0px;
+    width: 100vw;
+}
+
+.nav-bar {
+    width: 100%;
+}
+
+.nav-item {
+    text-align: center;  
+    width: 25%;
+}
+
+.nav-item-text {
+    color: grey;
+    font-size: 18px;
+    margin: auto;
+    max-width: 170px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-links {
+    width: 100%;
+}
+
+.title {
+    color: #7C9E0E;
+    font-family: "Franklin Gothic Medium", Arial, sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+.index {
+    background-color: whitesmoke;
+    height: 500px;
+    text-align: center;
+}
+
+.name-blast {
+    padding-top: 150px;
+    font-size: 10vw;
+    color: #7C9E0E;
+}
+
+.social-logo {
+    -webkit-transition: all 1s ease;
+    padding: 5px;
+    width: 35px;
+}
+
+.social-logo:hover {
+    -webkit-transform: rotate(360deg);
+}
+
+.sub-blast {
+    font-size: 20px;
+    color: grey;
+}
+
+.sub-sub-blast {
+    font-size: 19px;
+    color: darkgrey;
+}
+
+.about {
+    height: 500px;
+}
+
+.about .part-one {
+    position: absolute;
+    background-color: grey;
+    height: inherit;
+    padding-right: 400px;
+}
+
+.bio-text {
+    margin: 40px;
+    color: whitesmoke;
+}
+
+.bio-text a {
+    color: #D3D3E6;
+}
+
+.welcome {
+    color: #D3D3E6;
+    font-size: 40px;
+}
+
+.bio {
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.bio-pic {
+    position: absolute;
+    height: inherit;
+    top: 0;
+    right: 0;
+}
+
+.projects-section-title {
+    background-color: #7C9E0E;
+    color: #D3D3E6;
+    text-align: center;
+    opacity: .85;
+    padding: 30px;
+    font-size: 50px;
+}
+
+.projects {
+    height: 500px;
+}
+
+.project-slider {
+    height: inherit;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: whitesmoke;
+    -webkit-transition: background .5s ease;
+}
+
+.project-overlay {
+    position: absolute;
+    width: 100vw;
+    background-color: #D3D3E6;
+    opacity: 0.85;
+    height: inherit;
+    -webkit-transition: all 1s ease;
+}
+
+.project-overlay:hover {
+    opacity: 0;
+}
+
+.project-text {
+    width: 70%;
+    margin: 100px auto 0 auto;
+    text-align: center;
+    -webkit-transition: all .5s ease;
+}
+
+.project-title {
+    color: #7C9E0E;
+    font-size: 35px;
+}
+
+.project-description {
+    color: grey;
+    font-size: 25px;
+}
+
+.project-used {
+    color: #7C9E0E;
+    font-size: 25px;
+}
+
+.project-button-last {
+    margin: 240px 0;
+    z-index: 10;
+    height: inherit;
+    left: 20px;
+    position: absolute;
+    background-color: #7C9E0E;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-transition: all .5s ease;
+}
+
+.project-button-last:hover {
+    background-color: grey;
+}
+
+.project-button-next {
+    margin: 240px 0;
+    z-index: 10;
+    height: inherit;
+    right: 20px;
+    position: absolute;
+    background-color: #7C9E0E;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-transition: all .5s ease;
+}
+
+.project-button-next:hover {
+    background-color: grey;
+}
+
